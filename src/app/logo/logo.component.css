@@ -1,0 +1,15 @@
+:host {
+  display: block;
+  text-align: center;
+}
+
+svg {
+  padding: 2px;
+  fill: #47e4c2;
+  height: 8px;
+  margin-bottom: 2px;
+}
+
+.st0 {
+  enable-background: new 0 0 358.3 52.1;
+}

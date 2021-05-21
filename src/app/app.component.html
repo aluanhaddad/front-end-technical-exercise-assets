@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="inner-container">
+    <div class="header">
+      <app-logo></app-logo>
+    </div>
+    <div class="content">
+      <div class="superimpose">
+        <p>New Games & Accessories</p>
+        <br>
+        <p>Monthly packages.</p>
+        <p>Whats the best way to shop for the latest video games and peripherals? How about never shopping at all?</p>
+        <p>You'll get new stuff on your doorstep - every month.</p>
+        <button type="button">Get Started</button>
+      </div>
+    </div>
+    <div class="footer">
+      <app-step *ngFor="let step of steps" [model]="step"></app-step>
+    </div>
+  </div>
+</div>

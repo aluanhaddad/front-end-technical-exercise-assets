@@ -1,0 +1,85 @@
+:host {
+  align-self: center;
+  display: block;
+  position: relative;
+}
+
+.container {
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  min-width: min-content;
+}
+.inner-container {
+  min-width: 100%;
+}
+
+.header {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  margin-bottom: auto;
+}
+
+.content {
+  aspect-ratio: auto;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  min-width: -webkit-min-content;
+  min-width: min-content;
+  min-height: 364.6px;
+}
+.footer {
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: white;
+  margin: 0px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+.superimpose {
+  margin: 10px;
+  flex-direction: column;
+  display: inline-flex;
+  position: relative;
+  max-width: 50%;
+  top: 10px;
+}
+
+button {
+  text-transform: uppercase;
+  padding: 10px 30px;
+  margin-bottom: 10px;
+  background: #47e4c2;
+  border: none;
+  border-radius: 100px;
+  width: max-content;
+  font-size: smaller;
+}
+button:hover {
+  background: #006d55;
+}
+button:active {
+  background: white;
+}
+
+@media (max-width: 767px) {
+  .content {
+    background-image: url(/assets/photo-couch.jpg);
+  }
+}
+
+@media (min-width: 767px) {
+  .content {
+    background-image: url(/assets/photo-couch_2x.jpg);
+  }
+}

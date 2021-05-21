@@ -1,0 +1,33 @@
+:host {
+  padding: 2%;
+  display: inline-flex;
+  color: white;
+  align-content: center;
+  text-align: center;
+}
+
+.content {
+  width: 140px;
+  align-content: center;
+  text-align: center;
+  color: black;
+}
+
+.heading {
+  text-decoration: solid underline #47e4c2 1px;
+  text-underline-position: below;
+  text-underline-offset: 4px;
+  padding-bottom: 8px;
+  font-weight: bolder;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 6px;
+}
+
+.description {
+  font-weight: light 100;
+  font-size: 6px;
+}
